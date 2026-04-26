@@ -9,7 +9,7 @@ export function drawWithGroup(data) {
 
   const xScale = d3.scaleLinear()
           .domain([0,d3.max(count_array)])
-          .range([0,chart.width]);
+          .range([0,chart.width - chart.left_padding - chart.right_padding]);
     
   const yScale = d3.scaleBand()
           .domain(weather_array)

@@ -4,7 +4,9 @@
     export const chart ={'width':600,
           'height':400,
           'left_padding':100,
-          'right_padding': 50  
+          'right_padding': 50,
+          'top_padding':50,
+          'bottom_padding':50  
     }
     // const chart_width = 500
     // const chart_height = 400
