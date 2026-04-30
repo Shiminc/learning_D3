@@ -15,3 +15,16 @@
     
     // 0.2 percent of the bar height
     export const padding_between_bar = 0.2
+
+    export const margin = {
+      top: 50,
+      right: 100,
+      bottom: 50,
+      left:50
+    }
+
+    // calculate innerChart properties 
+export const innerChart = {
+    'width' : svg_width - margin.left - margin.right,
+    'height' : svg_height - margin.top - margin.bottom
+}

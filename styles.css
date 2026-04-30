@@ -8,3 +8,8 @@
     top: 0.0%;
 
 }
+
+.axis-x text, .axis-y text {
+    font-family: Roboto, sans-serif;
+    font-size: 8px
+}
