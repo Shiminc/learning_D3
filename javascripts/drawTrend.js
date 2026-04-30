@@ -116,7 +116,7 @@ function createViz(data){
     .x(d=>xScale(parseDate(d.year_month)))
     .y(d=>yScale((d.Incident)))
 
-  base.append('path')
+  const line_chart = base.append('path')
     .attr('d', lineGenerator(data))
     .attr('fill','none')
     .attr('stroke','black')
