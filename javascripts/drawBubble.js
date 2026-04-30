@@ -25,6 +25,8 @@ export function drawBubble (data) {
     const month_day_array = data.map(d=>d.month_day)
     const year_month_array = data.map(d=>d.year_month)
     const year_array = data.map(d=>d.year)
+    const incident_array = data.map(d=>d.Incident_Cause)
+    const incident_unique = [...new Set(incident_array)]
 
     console.log(d3.min(month_day_array))
     console.log(d3.max(month_day_array))
@@ -39,8 +41,11 @@ export function drawBubble (data) {
                 .range([0,innerChart.height])
 
     
+    const colorScale = d3.scaleOrdinal()
+                        .domain(incident_unique)
+                        .range(d3.schemeTableau10)
 
-    console.log(parseMonthDate('01/01'))
+    console.log(colorScale)
     const xAxis = d3.axisBottom()
                     .scale(xScale)
                     .tickFormat(d3.timeFormat("%b"));
@@ -68,8 +73,9 @@ export function drawBubble (data) {
                     .attr('class','bubbles')
                     .attr("cx", d => xScale(d.month_day) )          
                     .attr("cy", d => yScale(d.year) )
-                    .attr("r",  d => Math.sqrt(d.total_hrs))
-                    .attr('opacity', 0.3)
+                    .attr("r",  d => Math.sqrt(d.total_hrs/8))
+                    .attr('opacity', 0.5)
+                    .attr('fill',d => colorScale(d.Incident_Cause))
           
 
     const bottomAxis = base.append('g')

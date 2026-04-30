@@ -1,0 +1,1058 @@
+[
+  {
+    "dateTime": 1420070400000,
+    "Incident": 5.0,
+    "year": 2015,
+    "month": 1,
+    "year_month": "2015-01-01",
+    "moving_average": null
+  },
+  {
+    "dateTime": 1422748800000,
+    "Incident": 1.0,
+    "year": 2015,
+    "month": 2,
+    "year_month": "2015-02-01",
+    "moving_average": null
+  },
+  {
+    "dateTime": 1425168000000,
+    "Incident": 2.0,
+    "year": 2015,
+    "month": 3,
+    "year_month": "2015-03-01",
+    "moving_average": null
+  },
+  {
+    "dateTime": 1427846400000,
+    "Incident": 2.0,
+    "year": 2015,
+    "month": 4,
+    "year_month": "2015-04-01",
+    "moving_average": null
+  },
+  {
+    "dateTime": 1430438400000,
+    "Incident": 8.0,
+    "year": 2015,
+    "month": 5,
+    "year_month": "2015-05-01",
+    "moving_average": null
+  },
+  {
+    "dateTime": 1433116800000,
+    "Incident": 7.0,
+    "year": 2015,
+    "month": 6,
+    "year_month": "2015-06-01",
+    "moving_average": null
+  },
+  {
+    "dateTime": 1435708800000,
+    "Incident": 3.0,
+    "year": 2015,
+    "month": 7,
+    "year_month": "2015-07-01",
+    "moving_average": null
+  },
+  {
+    "dateTime": 1438387200000,
+    "Incident": 12.0,
+    "year": 2015,
+    "month": 8,
+    "year_month": "2015-08-01",
+    "moving_average": null
+  },
+  {
+    "dateTime": 1441065600000,
+    "Incident": 7.0,
+    "year": 2015,
+    "month": 9,
+    "year_month": "2015-09-01",
+    "moving_average": null
+  },
+  {
+    "dateTime": 1443657600000,
+    "Incident": 9.0,
+    "year": 2015,
+    "month": 10,
+    "year_month": "2015-10-01",
+    "moving_average": null
+  },
+  {
+    "dateTime": 1446336000000,
+    "Incident": 3.0,
+    "year": 2015,
+    "month": 11,
+    "year_month": "2015-11-01",
+    "moving_average": null
+  },
+  {
+    "dateTime": 1448928000000,
+    "Incident": 3.0,
+    "year": 2015,
+    "month": 12,
+    "year_month": "2015-12-01",
+    "moving_average": 5.1666666667
+  },
+  {
+    "dateTime": 1451606400000,
+    "Incident": 3.0,
+    "year": 2016,
+    "month": 1,
+    "year_month": "2016-01-01",
+    "moving_average": 5.0
+  },
+  {
+    "dateTime": 1454284800000,
+    "Incident": 1.0,
+    "year": 2016,
+    "month": 2,
+    "year_month": "2016-02-01",
+    "moving_average": 5.0
+  },
+  {
+    "dateTime": 1456790400000,
+    "Incident": 5.0,
+    "year": 2016,
+    "month": 3,
+    "year_month": "2016-03-01",
+    "moving_average": 5.25
+  },
+  {
+    "dateTime": 1459468800000,
+    "Incident": 4.0,
+    "year": 2016,
+    "month": 4,
+    "year_month": "2016-04-01",
+    "moving_average": 5.4166666667
+  },
+  {
+    "dateTime": 1462060800000,
+    "Incident": 7.0,
+    "year": 2016,
+    "month": 5,
+    "year_month": "2016-05-01",
+    "moving_average": 5.3333333333
+  },
+  {
+    "dateTime": 1464739200000,
+    "Incident": 10.0,
+    "year": 2016,
+    "month": 6,
+    "year_month": "2016-06-01",
+    "moving_average": 5.5833333333
+  },
+  {
+    "dateTime": 1467331200000,
+    "Incident": 5.0,
+    "year": 2016,
+    "month": 7,
+    "year_month": "2016-07-01",
+    "moving_average": 5.75
+  },
+  {
+    "dateTime": 1470009600000,
+    "Incident": 18.0,
+    "year": 2016,
+    "month": 8,
+    "year_month": "2016-08-01",
+    "moving_average": 6.25
+  },
+  {
+    "dateTime": 1472688000000,
+    "Incident": 2.0,
+    "year": 2016,
+    "month": 9,
+    "year_month": "2016-09-01",
+    "moving_average": 5.8333333333
+  },
+  {
+    "dateTime": 1475280000000,
+    "Incident": 8.0,
+    "year": 2016,
+    "month": 10,
+    "year_month": "2016-10-01",
+    "moving_average": 5.75
+  },
+  {
+    "dateTime": 1477958400000,
+    "Incident": 4.0,
+    "year": 2016,
+    "month": 11,
+    "year_month": "2016-11-01",
+    "moving_average": 5.8333333333
+  },
+  {
+    "dateTime": 1480550400000,
+    "Incident": 3.0,
+    "year": 2016,
+    "month": 12,
+    "year_month": "2016-12-01",
+    "moving_average": 5.8333333333
+  },
+  {
+    "dateTime": 1483228800000,
+    "Incident": 2.0,
+    "year": 2017,
+    "month": 1,
+    "year_month": "2017-01-01",
+    "moving_average": 5.75
+  },
+  {
+    "dateTime": 1485907200000,
+    "Incident": 8.0,
+    "year": 2017,
+    "month": 2,
+    "year_month": "2017-02-01",
+    "moving_average": 6.3333333333
+  },
+  {
+    "dateTime": 1488326400000,
+    "Incident": 6.0,
+    "year": 2017,
+    "month": 3,
+    "year_month": "2017-03-01",
+    "moving_average": 6.4166666667
+  },
+  {
+    "dateTime": 1491004800000,
+    "Incident": 5.0,
+    "year": 2017,
+    "month": 4,
+    "year_month": "2017-04-01",
+    "moving_average": 6.5
+  },
+  {
+    "dateTime": 1493596800000,
+    "Incident": 7.0,
+    "year": 2017,
+    "month": 5,
+    "year_month": "2017-05-01",
+    "moving_average": 6.5
+  },
+  {
+    "dateTime": 1496275200000,
+    "Incident": 4.0,
+    "year": 2017,
+    "month": 6,
+    "year_month": "2017-06-01",
+    "moving_average": 6.0
+  },
+  {
+    "dateTime": 1498867200000,
+    "Incident": 16.0,
+    "year": 2017,
+    "month": 7,
+    "year_month": "2017-07-01",
+    "moving_average": 6.9166666667
+  },
+  {
+    "dateTime": 1501545600000,
+    "Incident": 18.0,
+    "year": 2017,
+    "month": 8,
+    "year_month": "2017-08-01",
+    "moving_average": 6.9166666667
+  },
+  {
+    "dateTime": 1504224000000,
+    "Incident": 17.0,
+    "year": 2017,
+    "month": 9,
+    "year_month": "2017-09-01",
+    "moving_average": 8.1666666667
+  },
+  {
+    "dateTime": 1506816000000,
+    "Incident": 19.0,
+    "year": 2017,
+    "month": 10,
+    "year_month": "2017-10-01",
+    "moving_average": 9.0833333333
+  },
+  {
+    "dateTime": 1509494400000,
+    "Incident": 7.0,
+    "year": 2017,
+    "month": 11,
+    "year_month": "2017-11-01",
+    "moving_average": 9.3333333333
+  },
+  {
+    "dateTime": 1512086400000,
+    "Incident": 0.0,
+    "year": 2017,
+    "month": 12,
+    "year_month": "2017-12-01",
+    "moving_average": 9.0833333333
+  },
+  {
+    "dateTime": 1514764800000,
+    "Incident": 2.0,
+    "year": 2018,
+    "month": 1,
+    "year_month": "2018-01-01",
+    "moving_average": 9.0833333333
+  },
+  {
+    "dateTime": 1517443200000,
+    "Incident": 6.0,
+    "year": 2018,
+    "month": 2,
+    "year_month": "2018-02-01",
+    "moving_average": 8.9166666667
+  },
+  {
+    "dateTime": 1519862400000,
+    "Incident": 9.0,
+    "year": 2018,
+    "month": 3,
+    "year_month": "2018-03-01",
+    "moving_average": 9.1666666667
+  },
+  {
+    "dateTime": 1522540800000,
+    "Incident": 7.0,
+    "year": 2018,
+    "month": 4,
+    "year_month": "2018-04-01",
+    "moving_average": 9.3333333333
+  },
+  {
+    "dateTime": 1525132800000,
+    "Incident": 8.0,
+    "year": 2018,
+    "month": 5,
+    "year_month": "2018-05-01",
+    "moving_average": 9.4166666667
+  },
+  {
+    "dateTime": 1527811200000,
+    "Incident": 9.0,
+    "year": 2018,
+    "month": 6,
+    "year_month": "2018-06-01",
+    "moving_average": 9.8333333333
+  },
+  {
+    "dateTime": 1530403200000,
+    "Incident": 8.0,
+    "year": 2018,
+    "month": 7,
+    "year_month": "2018-07-01",
+    "moving_average": 9.1666666667
+  },
+  {
+    "dateTime": 1533081600000,
+    "Incident": 18.0,
+    "year": 2018,
+    "month": 8,
+    "year_month": "2018-08-01",
+    "moving_average": 9.1666666667
+  },
+  {
+    "dateTime": 1535760000000,
+    "Incident": 7.0,
+    "year": 2018,
+    "month": 9,
+    "year_month": "2018-09-01",
+    "moving_average": 8.3333333333
+  },
+  {
+    "dateTime": 1538352000000,
+    "Incident": 6.0,
+    "year": 2018,
+    "month": 10,
+    "year_month": "2018-10-01",
+    "moving_average": 7.25
+  },
+  {
+    "dateTime": 1541030400000,
+    "Incident": 8.0,
+    "year": 2018,
+    "month": 11,
+    "year_month": "2018-11-01",
+    "moving_average": 7.3333333333
+  },
+  {
+    "dateTime": 1543622400000,
+    "Incident": 2.0,
+    "year": 2018,
+    "month": 12,
+    "year_month": "2018-12-01",
+    "moving_average": 7.5
+  },
+  {
+    "dateTime": 1546300800000,
+    "Incident": 5.0,
+    "year": 2019,
+    "month": 1,
+    "year_month": "2019-01-01",
+    "moving_average": 7.75
+  },
+  {
+    "dateTime": 1548979200000,
+    "Incident": 3.0,
+    "year": 2019,
+    "month": 2,
+    "year_month": "2019-02-01",
+    "moving_average": 7.5
+  },
+  {
+    "dateTime": 1551398400000,
+    "Incident": 2.0,
+    "year": 2019,
+    "month": 3,
+    "year_month": "2019-03-01",
+    "moving_average": 6.9166666667
+  },
+  {
+    "dateTime": 1554076800000,
+    "Incident": 3.0,
+    "year": 2019,
+    "month": 4,
+    "year_month": "2019-04-01",
+    "moving_average": 6.5833333333
+  },
+  {
+    "dateTime": 1556668800000,
+    "Incident": 5.0,
+    "year": 2019,
+    "month": 5,
+    "year_month": "2019-05-01",
+    "moving_average": 6.3333333333
+  },
+  {
+    "dateTime": 1559347200000,
+    "Incident": 7.0,
+    "year": 2019,
+    "month": 6,
+    "year_month": "2019-06-01",
+    "moving_average": 6.1666666667
+  },
+  {
+    "dateTime": 1561939200000,
+    "Incident": 17.0,
+    "year": 2019,
+    "month": 7,
+    "year_month": "2019-07-01",
+    "moving_average": 6.9166666667
+  },
+  {
+    "dateTime": 1564617600000,
+    "Incident": 8.0,
+    "year": 2019,
+    "month": 8,
+    "year_month": "2019-08-01",
+    "moving_average": 6.0833333333
+  },
+  {
+    "dateTime": 1567296000000,
+    "Incident": 6.0,
+    "year": 2019,
+    "month": 9,
+    "year_month": "2019-09-01",
+    "moving_average": 6.0
+  },
+  {
+    "dateTime": 1569888000000,
+    "Incident": 5.0,
+    "year": 2019,
+    "month": 10,
+    "year_month": "2019-10-01",
+    "moving_average": 5.9166666667
+  },
+  {
+    "dateTime": 1572566400000,
+    "Incident": 7.0,
+    "year": 2019,
+    "month": 11,
+    "year_month": "2019-11-01",
+    "moving_average": 5.8333333333
+  },
+  {
+    "dateTime": 1575158400000,
+    "Incident": 2.0,
+    "year": 2019,
+    "month": 12,
+    "year_month": "2019-12-01",
+    "moving_average": 5.8333333333
+  },
+  {
+    "dateTime": 1577836800000,
+    "Incident": 1.0,
+    "year": 2020,
+    "month": 1,
+    "year_month": "2020-01-01",
+    "moving_average": 5.5
+  },
+  {
+    "dateTime": 1580515200000,
+    "Incident": 3.0,
+    "year": 2020,
+    "month": 2,
+    "year_month": "2020-02-01",
+    "moving_average": 5.5
+  },
+  {
+    "dateTime": 1583020800000,
+    "Incident": 4.0,
+    "year": 2020,
+    "month": 3,
+    "year_month": "2020-03-01",
+    "moving_average": 5.6666666667
+  },
+  {
+    "dateTime": 1585699200000,
+    "Incident": 0.0,
+    "year": 2020,
+    "month": 4,
+    "year_month": "2020-04-01",
+    "moving_average": 5.4166666667
+  },
+  {
+    "dateTime": 1588291200000,
+    "Incident": 2.0,
+    "year": 2020,
+    "month": 5,
+    "year_month": "2020-05-01",
+    "moving_average": 5.1666666667
+  },
+  {
+    "dateTime": 1590969600000,
+    "Incident": 5.0,
+    "year": 2020,
+    "month": 6,
+    "year_month": "2020-06-01",
+    "moving_average": 5.0
+  },
+  {
+    "dateTime": 1593561600000,
+    "Incident": 19.0,
+    "year": 2020,
+    "month": 7,
+    "year_month": "2020-07-01",
+    "moving_average": 5.1666666667
+  },
+  {
+    "dateTime": 1596240000000,
+    "Incident": 20.0,
+    "year": 2020,
+    "month": 8,
+    "year_month": "2020-08-01",
+    "moving_average": 6.1666666667
+  },
+  {
+    "dateTime": 1598918400000,
+    "Incident": 8.0,
+    "year": 2020,
+    "month": 9,
+    "year_month": "2020-09-01",
+    "moving_average": 6.3333333333
+  },
+  {
+    "dateTime": 1601510400000,
+    "Incident": 5.0,
+    "year": 2020,
+    "month": 10,
+    "year_month": "2020-10-01",
+    "moving_average": 6.3333333333
+  },
+  {
+    "dateTime": 1604188800000,
+    "Incident": 3.0,
+    "year": 2020,
+    "month": 11,
+    "year_month": "2020-11-01",
+    "moving_average": 6.0
+  },
+  {
+    "dateTime": 1606780800000,
+    "Incident": 7.0,
+    "year": 2020,
+    "month": 12,
+    "year_month": "2020-12-01",
+    "moving_average": 6.4166666667
+  },
+  {
+    "dateTime": 1609459200000,
+    "Incident": 6.0,
+    "year": 2021,
+    "month": 1,
+    "year_month": "2021-01-01",
+    "moving_average": 6.8333333333
+  },
+  {
+    "dateTime": 1612137600000,
+    "Incident": 1.0,
+    "year": 2021,
+    "month": 2,
+    "year_month": "2021-02-01",
+    "moving_average": 6.6666666667
+  },
+  {
+    "dateTime": 1614556800000,
+    "Incident": 0.0,
+    "year": 2021,
+    "month": 3,
+    "year_month": "2021-03-01",
+    "moving_average": 6.3333333333
+  },
+  {
+    "dateTime": 1617235200000,
+    "Incident": 7.0,
+    "year": 2021,
+    "month": 4,
+    "year_month": "2021-04-01",
+    "moving_average": 6.9166666667
+  },
+  {
+    "dateTime": 1619827200000,
+    "Incident": 4.0,
+    "year": 2021,
+    "month": 5,
+    "year_month": "2021-05-01",
+    "moving_average": 7.0833333333
+  },
+  {
+    "dateTime": 1622505600000,
+    "Incident": 20.0,
+    "year": 2021,
+    "month": 6,
+    "year_month": "2021-06-01",
+    "moving_average": 8.3333333333
+  },
+  {
+    "dateTime": 1625097600000,
+    "Incident": 11.0,
+    "year": 2021,
+    "month": 7,
+    "year_month": "2021-07-01",
+    "moving_average": 7.6666666667
+  },
+  {
+    "dateTime": 1627776000000,
+    "Incident": 16.0,
+    "year": 2021,
+    "month": 8,
+    "year_month": "2021-08-01",
+    "moving_average": 7.3333333333
+  },
+  {
+    "dateTime": 1630454400000,
+    "Incident": 17.0,
+    "year": 2021,
+    "month": 9,
+    "year_month": "2021-09-01",
+    "moving_average": 8.0833333333
+  },
+  {
+    "dateTime": 1633046400000,
+    "Incident": 27.0,
+    "year": 2021,
+    "month": 10,
+    "year_month": "2021-10-01",
+    "moving_average": 9.9166666667
+  },
+  {
+    "dateTime": 1635724800000,
+    "Incident": 15.0,
+    "year": 2021,
+    "month": 11,
+    "year_month": "2021-11-01",
+    "moving_average": 10.9166666667
+  },
+  {
+    "dateTime": 1638316800000,
+    "Incident": 8.0,
+    "year": 2021,
+    "month": 12,
+    "year_month": "2021-12-01",
+    "moving_average": 11.0
+  },
+  {
+    "dateTime": 1640995200000,
+    "Incident": 10.0,
+    "year": 2022,
+    "month": 1,
+    "year_month": "2022-01-01",
+    "moving_average": 11.3333333333
+  },
+  {
+    "dateTime": 1643673600000,
+    "Incident": 10.0,
+    "year": 2022,
+    "month": 2,
+    "year_month": "2022-02-01",
+    "moving_average": 12.0833333333
+  },
+  {
+    "dateTime": 1646092800000,
+    "Incident": 10.0,
+    "year": 2022,
+    "month": 3,
+    "year_month": "2022-03-01",
+    "moving_average": 12.9166666667
+  },
+  {
+    "dateTime": 1648771200000,
+    "Incident": 9.0,
+    "year": 2022,
+    "month": 4,
+    "year_month": "2022-04-01",
+    "moving_average": 13.0833333333
+  },
+  {
+    "dateTime": 1651363200000,
+    "Incident": 5.0,
+    "year": 2022,
+    "month": 5,
+    "year_month": "2022-05-01",
+    "moving_average": 13.1666666667
+  },
+  {
+    "dateTime": 1654041600000,
+    "Incident": 20.0,
+    "year": 2022,
+    "month": 6,
+    "year_month": "2022-06-01",
+    "moving_average": 13.1666666667
+  },
+  {
+    "dateTime": 1656633600000,
+    "Incident": 17.0,
+    "year": 2022,
+    "month": 7,
+    "year_month": "2022-07-01",
+    "moving_average": 13.6666666667
+  },
+  {
+    "dateTime": 1659312000000,
+    "Incident": 13.0,
+    "year": 2022,
+    "month": 8,
+    "year_month": "2022-08-01",
+    "moving_average": 13.4166666667
+  },
+  {
+    "dateTime": 1661990400000,
+    "Incident": 12.0,
+    "year": 2022,
+    "month": 9,
+    "year_month": "2022-09-01",
+    "moving_average": 13.0
+  },
+  {
+    "dateTime": 1664582400000,
+    "Incident": 10.0,
+    "year": 2022,
+    "month": 10,
+    "year_month": "2022-10-01",
+    "moving_average": 11.5833333333
+  },
+  {
+    "dateTime": 1667260800000,
+    "Incident": 6.0,
+    "year": 2022,
+    "month": 11,
+    "year_month": "2022-11-01",
+    "moving_average": 10.8333333333
+  },
+  {
+    "dateTime": 1669852800000,
+    "Incident": 2.0,
+    "year": 2022,
+    "month": 12,
+    "year_month": "2022-12-01",
+    "moving_average": 10.3333333333
+  },
+  {
+    "dateTime": 1672531200000,
+    "Incident": 6.0,
+    "year": 2023,
+    "month": 1,
+    "year_month": "2023-01-01",
+    "moving_average": 10.0
+  },
+  {
+    "dateTime": 1675209600000,
+    "Incident": 13.0,
+    "year": 2023,
+    "month": 2,
+    "year_month": "2023-02-01",
+    "moving_average": 10.25
+  },
+  {
+    "dateTime": 1677628800000,
+    "Incident": 8.0,
+    "year": 2023,
+    "month": 3,
+    "year_month": "2023-03-01",
+    "moving_average": 10.0833333333
+  },
+  {
+    "dateTime": 1680307200000,
+    "Incident": 15.0,
+    "year": 2023,
+    "month": 4,
+    "year_month": "2023-04-01",
+    "moving_average": 10.5833333333
+  },
+  {
+    "dateTime": 1682899200000,
+    "Incident": 24.0,
+    "year": 2023,
+    "month": 5,
+    "year_month": "2023-05-01",
+    "moving_average": 12.1666666667
+  },
+  {
+    "dateTime": 1685577600000,
+    "Incident": 18.0,
+    "year": 2023,
+    "month": 6,
+    "year_month": "2023-06-01",
+    "moving_average": 12.0
+  },
+  {
+    "dateTime": 1688169600000,
+    "Incident": 25.0,
+    "year": 2023,
+    "month": 7,
+    "year_month": "2023-07-01",
+    "moving_average": 12.6666666667
+  },
+  {
+    "dateTime": 1690848000000,
+    "Incident": 16.0,
+    "year": 2023,
+    "month": 8,
+    "year_month": "2023-08-01",
+    "moving_average": 12.9166666667
+  },
+  {
+    "dateTime": 1693526400000,
+    "Incident": 11.0,
+    "year": 2023,
+    "month": 9,
+    "year_month": "2023-09-01",
+    "moving_average": 12.8333333333
+  },
+  {
+    "dateTime": 1696118400000,
+    "Incident": 10.0,
+    "year": 2023,
+    "month": 10,
+    "year_month": "2023-10-01",
+    "moving_average": 12.8333333333
+  },
+  {
+    "dateTime": 1698796800000,
+    "Incident": 10.0,
+    "year": 2023,
+    "month": 11,
+    "year_month": "2023-11-01",
+    "moving_average": 13.1666666667
+  },
+  {
+    "dateTime": 1701388800000,
+    "Incident": 6.0,
+    "year": 2023,
+    "month": 12,
+    "year_month": "2023-12-01",
+    "moving_average": 13.5
+  },
+  {
+    "dateTime": 1704067200000,
+    "Incident": 11.0,
+    "year": 2024,
+    "month": 1,
+    "year_month": "2024-01-01",
+    "moving_average": 13.9166666667
+  },
+  {
+    "dateTime": 1706745600000,
+    "Incident": 10.0,
+    "year": 2024,
+    "month": 2,
+    "year_month": "2024-02-01",
+    "moving_average": 13.6666666667
+  },
+  {
+    "dateTime": 1709251200000,
+    "Incident": 11.0,
+    "year": 2024,
+    "month": 3,
+    "year_month": "2024-03-01",
+    "moving_average": 13.9166666667
+  },
+  {
+    "dateTime": 1711929600000,
+    "Incident": 13.0,
+    "year": 2024,
+    "month": 4,
+    "year_month": "2024-04-01",
+    "moving_average": 13.75
+  },
+  {
+    "dateTime": 1714521600000,
+    "Incident": 19.0,
+    "year": 2024,
+    "month": 5,
+    "year_month": "2024-05-01",
+    "moving_average": 13.3333333333
+  },
+  {
+    "dateTime": 1717200000000,
+    "Incident": 16.0,
+    "year": 2024,
+    "month": 6,
+    "year_month": "2024-06-01",
+    "moving_average": 13.1666666667
+  },
+  {
+    "dateTime": 1719792000000,
+    "Incident": 20.0,
+    "year": 2024,
+    "month": 7,
+    "year_month": "2024-07-01",
+    "moving_average": 12.75
+  },
+  {
+    "dateTime": 1722470400000,
+    "Incident": 25.0,
+    "year": 2024,
+    "month": 8,
+    "year_month": "2024-08-01",
+    "moving_average": 13.5
+  },
+  {
+    "dateTime": 1725148800000,
+    "Incident": 14.0,
+    "year": 2024,
+    "month": 9,
+    "year_month": "2024-09-01",
+    "moving_average": 13.75
+  },
+  {
+    "dateTime": 1727740800000,
+    "Incident": 12.0,
+    "year": 2024,
+    "month": 10,
+    "year_month": "2024-10-01",
+    "moving_average": 13.9166666667
+  },
+  {
+    "dateTime": 1730419200000,
+    "Incident": 10.0,
+    "year": 2024,
+    "month": 11,
+    "year_month": "2024-11-01",
+    "moving_average": 13.9166666667
+  },
+  {
+    "dateTime": 1733011200000,
+    "Incident": 7.0,
+    "year": 2024,
+    "month": 12,
+    "year_month": "2024-12-01",
+    "moving_average": 14.0
+  },
+  {
+    "dateTime": 1735689600000,
+    "Incident": 6.0,
+    "year": 2025,
+    "month": 1,
+    "year_month": "2025-01-01",
+    "moving_average": 13.5833333333
+  },
+  {
+    "dateTime": 1738368000000,
+    "Incident": 8.0,
+    "year": 2025,
+    "month": 2,
+    "year_month": "2025-02-01",
+    "moving_average": 13.4166666667
+  },
+  {
+    "dateTime": 1740787200000,
+    "Incident": 13.0,
+    "year": 2025,
+    "month": 3,
+    "year_month": "2025-03-01",
+    "moving_average": 13.5833333333
+  },
+  {
+    "dateTime": 1743465600000,
+    "Incident": 13.0,
+    "year": 2025,
+    "month": 4,
+    "year_month": "2025-04-01",
+    "moving_average": 13.5833333333
+  },
+  {
+    "dateTime": 1746057600000,
+    "Incident": 19.0,
+    "year": 2025,
+    "month": 5,
+    "year_month": "2025-05-01",
+    "moving_average": 13.5833333333
+  },
+  {
+    "dateTime": 1748736000000,
+    "Incident": 18.0,
+    "year": 2025,
+    "month": 6,
+    "year_month": "2025-06-01",
+    "moving_average": 13.75
+  },
+  {
+    "dateTime": 1751328000000,
+    "Incident": 23.0,
+    "year": 2025,
+    "month": 7,
+    "year_month": "2025-07-01",
+    "moving_average": 14.0
+  },
+  {
+    "dateTime": 1754006400000,
+    "Incident": 19.0,
+    "year": 2025,
+    "month": 8,
+    "year_month": "2025-08-01",
+    "moving_average": 13.5
+  },
+  {
+    "dateTime": 1756684800000,
+    "Incident": 13.0,
+    "year": 2025,
+    "month": 9,
+    "year_month": "2025-09-01",
+    "moving_average": 13.4166666667
+  },
+  {
+    "dateTime": 1759276800000,
+    "Incident": 8.0,
+    "year": 2025,
+    "month": 10,
+    "year_month": "2025-10-01",
+    "moving_average": 13.0833333333
+  },
+  {
+    "dateTime": 1761955200000,
+    "Incident": 7.0,
+    "year": 2025,
+    "month": 11,
+    "year_month": "2025-11-01",
+    "moving_average": 12.8333333333
+  },
+  {
+    "dateTime": 1764547200000,
+    "Incident": 5.0,
+    "year": 2025,
+    "month": 12,
+    "year_month": "2025-12-01",
+    "moving_average": 12.6666666667
+  }
+]
