@@ -1,7 +1,7 @@
 let dataset
 
 //Main
-d3.json('../data/trend.json').then(
+d3.json('../data/trend_prediction.json').then(
   data => {
     dataset = data
   // put any function here
@@ -29,12 +29,12 @@ const margin = {
 //
 function createViz(data){
   //fields to be visualised, only use for scaling function
-  const dateArray = data.map(d=>parseDate(d.year_month)) 
+  const dateArray = data.map(d=>parseDate(d.dateTime)) 
   const countArray = data.map(d=>d.Incident)
   console.log(dateArray)
   //scale
   const xScale = d3.scaleTime()
-                  .domain([d3.min(dateArray), parseDate('2026-01-01')])
+                  .domain([d3.min(dateArray), parseDate('2027-01-01')])
                   .range([0, chart.width - margin.right - margin.left])
 
   const yScale = d3.scaleLinear()
@@ -71,7 +71,7 @@ function createViz(data){
 
   const point = data_base
         .append('circle')
-        .attr('cx', d=>xScale(parseDate(d.year_month)))
+        .attr('cx', d=>xScale(parseDate(d.dateTime)))
         .attr('cy', d=>yScale((d.Incident)))
         .attr('r', 2)
         .attr('fill','red')

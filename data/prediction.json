@@ -1,0 +1,86 @@
+[
+  {
+    "dateTime": 1767225600000,
+    "lower Incident": -2.3096655618,
+    "upper Incident": 16.7740101955,
+    "Incident": 7.2321723168,
+    "category": "forecast"
+  },
+  {
+    "dateTime": 1769904000000,
+    "lower Incident": -0.2367359715,
+    "upper Incident": 19.9818654377,
+    "Incident": 9.8725647331,
+    "category": "forecast"
+  },
+  {
+    "dateTime": 1772323200000,
+    "lower Incident": 0.8920732495,
+    "upper Incident": 21.2453292926,
+    "Incident": 11.068701271,
+    "category": "forecast"
+  },
+  {
+    "dateTime": 1775001600000,
+    "lower Incident": 3.3592180896,
+    "upper Incident": 23.7289052881,
+    "Incident": 13.5440616888,
+    "category": "forecast"
+  },
+  {
+    "dateTime": 1777593600000,
+    "lower Incident": 10.1857618499,
+    "upper Incident": 30.5574606062,
+    "Incident": 20.371611228,
+    "category": "forecast"
+  },
+  {
+    "dateTime": 1780272000000,
+    "lower Incident": 7.2707785449,
+    "upper Incident": 27.6427236608,
+    "Incident": 17.4567511029,
+    "category": "forecast"
+  },
+  {
+    "dateTime": 1782864000000,
+    "lower Incident": 12.5492800432,
+    "upper Incident": 32.9212553328,
+    "Incident": 22.735267688,
+    "category": "forecast"
+  },
+  {
+    "dateTime": 1785542400000,
+    "lower Incident": 9.6176335979,
+    "upper Incident": 29.9896125831,
+    "Incident": 19.8036230905,
+    "category": "forecast"
+  },
+  {
+    "dateTime": 1788220800000,
+    "lower Incident": 2.5358899697,
+    "upper Incident": 22.9078694075,
+    "Incident": 12.7218796886,
+    "category": "forecast"
+  },
+  {
+    "dateTime": 1790812800000,
+    "lower Incident": -0.551416611,
+    "upper Incident": 19.8205628823,
+    "Incident": 9.6345731356,
+    "category": "forecast"
+  },
+  {
+    "dateTime": 1793491200000,
+    "lower Incident": -1.5480131414,
+    "upper Incident": 18.8239663587,
+    "Incident": 8.6379766087,
+    "category": "forecast"
+  },
+  {
+    "dateTime": 1796083200000,
+    "lower Incident": -4.3686994865,
+    "upper Incident": 16.0032800144,
+    "Incident": 5.817290264,
+    "category": "forecast"
+  }
+]
