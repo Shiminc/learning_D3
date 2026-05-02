@@ -12,7 +12,7 @@ d3.json('../data/trend_prediction.json').then(
 
 // helper functions
 const parseDate = d3.timeParse("%Y-%m-%d")
-
+// console.log(parseDate('2026-01-01').getFullYear())
 // chart setting
 const chart = {
   'height' : 500,
@@ -74,8 +74,8 @@ function createViz(data){
         .attr('cx', d=>xScale(parseDate(d.dateTime)))
         .attr('cy', d=>yScale((d.Incident)))
         .attr('r', 2)
-        .attr('fill','red')
-        
+        .attr('fill', d => d.category === 'forecast' ? 'red' : 'skyblue');
+
   
         
 
@@ -111,14 +111,32 @@ function createViz(data){
                     .text('Number of Incident')
                     .attr('font-size', '10px')
                     .attr('transform',`translate(-20, -10)`)
+
+
+
+                    
 //draw line
-  const lineGenerator = d3.line()
-    .x(d=>xScale(parseDate(d.year_month)))
+  const lineGenerator_forecast = d3.line()
+    .x(d=>xScale(parseDate(d.dateTime)))
     .y(d=>yScale((d.Incident)))
+    .defined(d=>parseDate(d.dateTime).getFullYear()===2026 || d.dateTime =='2025-12-01');
+
+  const lineGenerator_existing = d3.line()
+    .x(d=>xScale(parseDate(d.dateTime)))
+    .y(d=>yScale((d.Incident)))
+    .defined(d=>parseDate(d.dateTime).getFullYear()<2026);
+
+  const line_forecast = base.append('path')
+    .attr('class','forecast')
+    .attr('d', lineGenerator_forecast(data))
+    .attr('fill','none')
+    .attr('stroke','red')
 
   const line_chart = base.append('path')
-    .attr('d', lineGenerator(data))
+    .attr('class','existing')
+    .attr('d', lineGenerator_existing(data))
     .attr('fill','none')
-    .attr('stroke','black')
+    .attr('stroke','skyblue')
+
   }
 
