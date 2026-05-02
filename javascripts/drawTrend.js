@@ -112,9 +112,21 @@ function createViz(data){
                     .attr('font-size', '10px')
                     .attr('transform',`translate(-20, -10)`)
 
+//draw Margin of error
+  const areaGenerator = d3.area()
+    .x(d=>xScale(parseDate(d.dateTime)))
+    .y0(d=>yScale((d.lowerIncident)))
+    .y1(d=>yScale((d.upperIncident)))
+    // .curve(d3.curveCatmullRom)
+    .defined(d=>parseDate(d.dateTime).getFullYear()===2026|| d.dateTime =='2025-12-01');
 
+  const area_chart = base.append('path')
+    .attr('class','error')
+    .attr('d', areaGenerator(data))
+    .attr('fill','purple')
+    .attr('fill-opacity',0.2)
 
-                    
+  console.log(areaGenerator(data))
 //draw line
   const lineGenerator_forecast = d3.line()
     .x(d=>xScale(parseDate(d.dateTime)))
