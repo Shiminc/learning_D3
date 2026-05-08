@@ -1,0 +1,90 @@
+[
+  {
+    "year": 2015,
+    "Cragfast": 6,
+    "Injured & Medical": 26,
+    "Lost": 16,
+    "Other": 5,
+    "Overdue": 9
+  },
+  {
+    "year": 2016,
+    "Cragfast": 6,
+    "Injured & Medical": 31,
+    "Lost": 24,
+    "Other": 8,
+    "Overdue": 1
+  },
+  {
+    "year": 2017,
+    "Cragfast": 6,
+    "Injured & Medical": 43,
+    "Lost": 38,
+    "Other": 9,
+    "Overdue": 13
+  },
+  {
+    "year": 2018,
+    "Cragfast": 8,
+    "Injured & Medical": 37,
+    "Lost": 20,
+    "Other": 9,
+    "Overdue": 16
+  },
+  {
+    "year": 2019,
+    "Cragfast": 12,
+    "Injured & Medical": 24,
+    "Lost": 22,
+    "Other": 6,
+    "Overdue": 6
+  },
+  {
+    "year": 2020,
+    "Cragfast": 9,
+    "Injured & Medical": 28,
+    "Lost": 25,
+    "Other": 9,
+    "Overdue": 6
+  },
+  {
+    "year": 2021,
+    "Cragfast": 8,
+    "Injured & Medical": 54,
+    "Lost": 38,
+    "Other": 22,
+    "Overdue": 10
+  },
+  {
+    "year": 2022,
+    "Cragfast": 8,
+    "Injured & Medical": 50,
+    "Lost": 36,
+    "Other": 14,
+    "Overdue": 16
+  },
+  {
+    "year": 2023,
+    "Cragfast": 17,
+    "Injured & Medical": 63,
+    "Lost": 31,
+    "Other": 12,
+    "Overdue": 39
+  },
+  {
+    "year": 2024,
+    "Cragfast": 11,
+    "Injured & Medical": 73,
+    "Lost": 31,
+    "Other": 25,
+    "Overdue": 28
+  },
+  {
+    "year": 2025,
+    "Cragfast": 16,
+    "Injured & Medical": 57,
+    "Lost": 37,
+    "Other": 16,
+    "Overdue": 26
+  }
+]

@@ -1,0 +1,7 @@
+[
+  { "Incident_Cause": "Injured & Medical", "proportion": 0.3996710526 },
+  { "Incident_Cause": "Lost", "proportion": 0.2615131579 },
+  { "Incident_Cause": "Overdue", "proportion": 0.1398026316 },
+  { "Incident_Cause": "Other", "proportion": 0.1110197368 },
+  { "Incident_Cause": "Cragfast", "proportion": 0.0879934211 }
+]
