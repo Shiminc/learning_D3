@@ -1,12 +1,12 @@
 // chart setting
 export const chart = {
-  'height' : 40,
+  'height' : 30,
   'width' : 160
 }
 
 export const margin = {
-    'horizontal': 20,
-    'vertical':20
+    'horizontal': 5,
+    'vertical':5
 
 }
 export const whole_chart = {
@@ -22,7 +22,7 @@ export const xScale = d3.scaleBand()
         .paddingInner(0.2)
 
 export const colorScale = d3.scaleOrdinal()
-        .domain(['Lost','Cragfast','Injured & Medical','Overdue','Other'])
+        .domain(['Cragfast','Injured & Medical','Lost','Other','Overdue'])
         .range(d3.schemeTableau10)
 
 
