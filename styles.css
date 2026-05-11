@@ -13,3 +13,53 @@
     font-family: Roboto, sans-serif;
     font-size: 8px
 }
+
+.x-axis-bar path,
+.x-axis-bar line,
+.y-axis-bar line,
+.y-axis-bar path {
+    stroke-opacity: 0.5
+    
+}
+
+.y-axis-bar text {
+    transform: translateX(2.5px);
+}
+
+.x-axis-bar text {
+    transform: translateY(-2.5px);
+}
+
+.leftAxisLabel-bar text{
+    font: 2px
+}
+
+.color-legend {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-left:0;
+}
+
+li {
+    list-style: none;
+}
+
+.color-legend-item {
+    margin: 5px 12px;
+    font-size:1.4rem;
+}
+
+.color-legend span {
+    display: inline-block;
+}
+
+.color-legend-item-color {
+    position: relative;
+    top: 2px;
+    width: 14px;
+    height: 14px;
+    margin-right:5px;
+    border-radius:3px;
+}

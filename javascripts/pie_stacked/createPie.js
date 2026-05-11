@@ -1,7 +1,7 @@
 import {xScale, colorScale, chart, margin, whole_chart } from './variable.js'
 
 // define centre for 4 season donut based on month_order [0,12]
-const centres = [1,4,7,10]
+const centres = [4,7,10,1]
 const seasons = ['Spring','Summer','Autumn','Winter']
 
 // function createSeasonData (data, season){
@@ -79,7 +79,7 @@ export function createPie (data){
         let donutContainer = svg
             .append('g')
             .attr('class',`donut-${seasons[i]}`)
-            .attr('transform',`translate(${xScale(centres[i])+margin.horizontal},${chart.height/2+margin.vertical})`)
+            .attr('transform',`translate(${xScale(centres[i])+margin.horizontal*2},${chart.height/2+margin.vertical})`)
         
         //binding data
         let donut = donutContainer

@@ -1,6 +1,5 @@
 import {drawBarLabelSeparately} from './drawBarLabelSeparately.js'; 
 import {drawWithGroup} from './drawWithGroup.js';
-
 //weather data
 let data
 async function main() {
