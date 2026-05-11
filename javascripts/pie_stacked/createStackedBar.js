@@ -76,7 +76,7 @@ export function createStackedBar (data){
     console.log(bottomAxis)
 
     const leftAxis = d3.axisLeft(yScale)
-        .tickSize(1)
+        .tickSize(0.5)
         .tickSizeOuter(0)
 
     console.log(leftAxis)
@@ -90,6 +90,7 @@ export function createStackedBar (data){
 
     innerChart.append('g')
        .call(leftAxis)
+        // .attr('transform',translate(0,0))
         .attr('font-size', '2px')
         .attr('class','y-axis-bar')
         .attr('text-anchor','end')

@@ -21,6 +21,15 @@
     stroke-opacity: 0.5
     
 }
+.x-axis-bar path{
+    transform: translateX(-0.5px) translateY(-0.5px);    
+}
+.y-axis-bar line{
+    transform: translateX(0) translateY(-0.5px);    
+}
+.y-axis-bar path {
+    transform: translateX(-0.5px) translateY(-0.5px);    
+}
 
 .y-axis-bar text {
     transform: translateX(2.5px);
