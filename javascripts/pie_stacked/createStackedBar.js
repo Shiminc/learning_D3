@@ -19,7 +19,7 @@ export function createStackedBar (data){
     console.log(data)
 
     const annotatedData = stackGenerator(data)
-    console.log(annotatedData)
+    console.log('stack',annotatedData)
 
     //last series to get the max height
     console.log(annotatedData[annotatedData.length - 1])
@@ -39,7 +39,6 @@ export function createStackedBar (data){
     const innerChart = svg.append("g")
       .attr("transform", `translate(${margin.horizontal}, ${margin.vertical})`);
 
-
     annotatedData.forEach(series => {
 
         innerChart
@@ -49,7 +48,7 @@ export function createStackedBar (data){
                 .attr('class',`bar-${series.key}`)
                 .attr('x',d=>{
 
-                    console.log('real month',d.data.month)
+                    // console.log('real month',d.data.month)
                     return xScale(d.data.month)
                 
                 })
@@ -57,10 +56,44 @@ export function createStackedBar (data){
                 .attr('width', xScale.bandwidth())
                 .attr('height', d => yScale(d[0])-yScale(d[1]))
                 .attr('fill',colorScale(series.key))
+
+    }); //for loop
+
+        //alternative Scott murray method in ch13
+    // alternative need to declare colour due to no series key in the data submitted.
+    // the alternative method does not use for loop to go through each series but bind each series to each g, then bind again for each month
+
+    var colors = d3.scaleOrdinal(d3.schemeCategory10);
+    const svg_alt = d3.select('#stacked_chart_alt')
+        .append('svg')
+            .attr('id','svg-stacked_alt')
+            .attr('viewBox',`0 0 ${whole_chart.width} ${whole_chart.height}`)
+            .style('background-color','pink')
+
+    const innerChart_alt = svg_alt.selectAll('g')
+    .data(annotatedData)
+    .join('g')
+    .style("fill", function(d, i) {
+					return colors(i);
+				})
+    .attr("transform", `translate(${margin.horizontal}, ${margin.vertical})`);
+
+
+    innerChart_alt
+        .selectAll('rect')
+        .data(function(d) {return d;})
+        .join('rect')
+             .attr('x',d=>{
+                    console.log('d',d)
+                    // console.log('real month',d.data.month)
+                    return xScale(d.data.month)
                 
+                })
+                .attr('y',d=>yScale(d[1]))
+                .attr('width', xScale.bandwidth())
+                .attr('height', d => yScale(d[0])-yScale(d[1]))
 
-
-    });
+    //alternative finished
     console.log('dec',xScale(12))
     
 // d3.axisBottom(xScale).tickFormat(d => {

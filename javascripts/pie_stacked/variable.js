@@ -30,7 +30,6 @@ export const colorScale = d3.scaleOrdinal()
 const colorLegend = ['Cragfast','Injured & Medical','Lost','Other','Overdue']
 
 export function createLegend (){
-
     //base with data for legend
     const legendItems = d3.select('.legend-container')
         .append('ul')

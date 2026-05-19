@@ -58,8 +58,8 @@ export function createPie (data){
 
         // used to generate the path d to draw
         const arcGenerator = d3.arc()
-        .startAngle(d => d.startAngle)
-        .endAngle(d => d.endAngle)
+        // .startAngle(d => d.startAngle)
+        // .endAngle(d => d.endAngle)
         .innerRadius(6)
         .outerRadius(10)
         .padAngle(0.02)
@@ -100,14 +100,17 @@ export function createPie (data){
             .append('text')
                 .attr('class', d => `label-${d.data.Incident_Cause}`)
                 .text(d => d3.format('0.1%')(d.percentage))
-                .attr('x', d=>{
-                    d['centroid'] = arcGenerator
-                    .startAngle(d.startAngle)
-                    .endAngle(d.endAngle)
-                    .centroid();
-                    return d.centroid[0]
+                // .attr('x', d=>{
+                //     d['centroid'] = arcGenerator
+                //     .startAngle(d.startAngle)
+                //     .endAngle(d.endAngle)
+                //     .centroid();
+                //     return d.centroid[0]
+                // })
+                // .attr('y', d=>d.centroid[1])
+                .attr('transform', function(d){
+                    return `translate(${arcGenerator.centroid(d)})`
                 })
-                .attr('y', d=>d.centroid[1])
                 .attr('text-rendering','optimizeLegibility')
                 .attr('text-anchor','middle')
                 .attr('dominant-baseline','middle')
