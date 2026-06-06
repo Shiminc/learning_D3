@@ -1,17 +1,17 @@
-import {innerChart, chartArea, margin} from './variable.js'
+import {innerChart, chartArea, margin, binGenerator} from './variable.js'
 
-const binGenerator = d3.bin()
-    .value(d=>d.Hours)
+
 
 export function createHistogram(data){
-    console.table(data)
+    // console.log('original data')
+    // console.table(data)
 
     const bins_data = binGenerator(data)
     console.log(bins_data[0])
 
     // the count for each bin
     const countData = bins_data.map(d=>d.length)
-    console.log((countData))
+    console.log('count_data',countData)
 
     // get the min of the lower bin (x1),and the max (x2) of the upper bin
     const xScale = d3.scaleLinear()
@@ -27,11 +27,14 @@ export function createHistogram(data){
 
     const xAxis = d3.axisBottom(xScale)
         .tickSize(1)
+        .tickSizeOuter(0)
+
         // .tickFormat(d=> d === 0 ? "": d)
 
     const yAxis = d3.axisLeft(yScale)
         .tickSize(1)
         .tickSizeOuter(0)
+
         // .tickFormat(d=> d === 0 ? "": d)
     // start drawing
 
@@ -63,18 +66,19 @@ export function createHistogram(data){
 
     //add axis
     svg.append('g')
+        .attr('transform',`translate (${margin.horizontal},${innerChart.height+margin.vertical})`)
        .call(xAxis)
         .attr('font-size', '1.5px')
         .attr('class','x-axis-bar')
         .style("stroke-width", "0.2px")
-        .attr('transform',`translate (${margin.horizontal},${innerChart.height+margin.vertical})`)
 
+        //the -0.25 to account for the strokewidth that caused misalignment
     svg.append('g')
+        .attr('transform',`translate (${margin.horizontal - 0.25},${margin.vertical})`)
        .call(yAxis)
         .attr('font-size', '1.5px')
         .attr('class','y-axis-bar')
         .style("stroke-width", "0.2px")
-        .attr('transform',`translate (${margin.horizontal},${margin.vertical})`)
 
     // svg.selectAll(".tick")
     // .filter(function (d) { return d == 0;  })

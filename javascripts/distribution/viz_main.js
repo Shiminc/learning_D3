@@ -1,5 +1,6 @@
 import {createHistogram} from './histogram.js'
 import {createPyramid} from './pyramid.js'
+import {filters, populateFilters} from './filter.js'
 
 d3.json('../data/full_data.json').then(
     
@@ -12,7 +13,8 @@ d3.json('../data/full_data.json').then(
                 'Hours':d.hrs
             }
         })
-
+        console.table(filters)
+        populateFilters(filters,data)
         createHistogram(data)
         createPyramid(data)
 

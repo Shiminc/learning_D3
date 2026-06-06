@@ -14,3 +14,10 @@ export const chartArea = {
     'height': `${innerChart.height + margin.vertical*2}`,
 }
 
+export const binGenerator = d3.bin().value(d=>d.Hours)
+
+// due to initial design so manual here
+export const yScale_update = d3.scaleLinear()
+        .domain([366,0])
+        .range([0,innerChart.height])
+        .nice()
