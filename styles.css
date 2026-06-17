@@ -108,3 +108,7 @@ rect {
 .filter.active {
   cursor: default;
 }
+
+.bubbles {
+    cursor:pointer;
+}
