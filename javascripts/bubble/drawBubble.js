@@ -1,4 +1,4 @@
-import {svg_width, svg_height, chart, margin, innerChart} from './declareVariable.js';
+import {svg_width, svg_height, chart, margin, innerChart} from '../declareVariable.js';
 
 console.log(innerChart)
 
@@ -60,11 +60,12 @@ export function drawBubble (data) {
     const svg = d3.select('#bubble_chart')
                 .append('svg')
                     .attr('viewBox',`0 0 ${chart.width} ${chart.height}`)
-                    .style('border','1px solid black');
+                    .style('border','1px solid black')
 
     const base = svg
         .append('g')
         .attr('transform',`translate(${margin.left}, ${margin.top})`)
+        .attr('class','chart_area');
 
     const bubble = base
                 .selectAll('circle')

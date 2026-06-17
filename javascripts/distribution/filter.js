@@ -27,7 +27,7 @@ function updateData(selected,data) {
         .data(bin_selected_data)
         .transition()
         .duration(500)
-        .ease(d3.easeLinear)
+        .ease(d3.easeCubicOut)
         .attr('y',d=>yScale_update(d.length))
         .attr('height',d=> yScale_update(0)-yScale_update(d.length))
 
