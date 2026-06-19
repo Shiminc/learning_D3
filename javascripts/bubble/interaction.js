@@ -4,8 +4,8 @@ import {svg_width, svg_height, chart, margin, innerChart} from '../declareVariab
 
 
 function showTooltips(e,d) {
-    console.log(d)
-    console.log(e)
+    // console.log(d)
+    // console.log(e)
 
     const cx = e.target.getAttribute('cx')
     const cy = e.target.getAttribute('cy')
@@ -16,7 +16,7 @@ function showTooltips(e,d) {
         .duration(200)
         .style('opacity',1);
     d3.select('.location')
-    .text(d.Location)
+    .text(d.Incident_Cause)
     d3.select('.total-hrs')
     .text(`${d.total_hrs} total hrs`)
 

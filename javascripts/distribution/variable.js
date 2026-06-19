@@ -20,4 +20,6 @@ export const binGenerator = d3.bin().value(d=>d.Hours)
 export const yScale_update = d3.scaleLinear()
         .domain([366,0])
         .range([0,innerChart.height])
-        .nice()
+        .nice();
+
+

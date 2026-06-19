@@ -14,8 +14,9 @@ d3.json('../data/full_data.json').then(
             }
         })
         console.table(filters)
-        populateFilters(filters,data)
         createHistogram(data)
+
+        populateFilters(filters,data)
         createPyramid(data)
 
     })
