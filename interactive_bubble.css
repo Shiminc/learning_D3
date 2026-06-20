@@ -1,0 +1,18 @@
+/* Responsive container of the svg element */
+.legend-total-hours,
+.legend-container,
+.responsive-svg-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.legend-total-hours ul {
+    display: flex;
+
+    
+}

@@ -45,7 +45,7 @@ const incidentCause = [
    { id: "Injured & Medical", label: "Injury & Medical - walkers, their company, or passers-by calling for help when there is injury or medical conditions", color: "#e49444" },
    { id: "Lost", label: "Lost - walkers calling for help when they could not find their way", color: "#d1615d" },
    { id: "Other", label: "Other - assisting local emergency, saving dog in distress on mountains, rescuing people from lakes, clearing road during winter, assisting flood rescues and other events not directly related to walkers", color: "#85b6b2" },
-   { id: "Overdue", label: "Critically Endangered", color: "#6a9f58" },
+   { id: "Overdue", label: "Overdue - triggered when people reporting the walker(s) do not come back in time.", color: "#6a9f58" },
 ];
 
 
