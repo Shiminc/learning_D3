@@ -13,6 +13,57 @@ ul {
 
 .legend-total-hours ul {
     display: flex;
+  
+}
 
-    
+.incident-cause {
+    vertical-align:middle;
+}
+
+.bubbles {
+    cursor:pointer;
+}
+
+/* Filters 
+display: flex;
+Turns #filters into a flexbox container. Its direct child elements become flex items and are laid out in a row by default.
+flex-wrap: wrap;
+Allows the flex items to move onto additional lines when there isn't enough horizontal space to fit them all on one line.*/
+#filters {
+  display: flex;
+  flex-wrap: wrap;
+}
+.filter {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  padding: 10px 20px 10px 15px;
+  font-family: inherit;
+  background-color: rgba(25, 46, 77, 0.6);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 200ms ease;
+}
+.filter-icon,
+.filter-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+.filter-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.filter-text {
+  font-size: 1.2rem;
+  color: #f5f9ff;
+}
+.filter:hover,
+.filter.active {
+  background-color: rgba(25, 46, 77, 1);
+}
+.filter.active {
+  cursor: default;
 }

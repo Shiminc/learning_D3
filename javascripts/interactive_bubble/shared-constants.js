@@ -48,6 +48,13 @@ const incidentCause = [
    { id: "Overdue", label: "Overdue - triggered when people reporting the walker(s) do not come back in time.", color: "#6a9f58" },
 ];
 
+// Selectors
+const LocationFilters = [
+  { id: "all", label: "All location", isActive: true },
+  { id: "scafell", label: "Scafell Pike", isActive: false },
+  { id: "screes", label: "Wast Water Screes", isActive: false },
+  { id: "gable", label: "Great Gable", isActive: false },
+];
 
 // Scales
 let yScale;
